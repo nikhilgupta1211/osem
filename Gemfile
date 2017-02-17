@@ -182,7 +182,7 @@ gem 'dotenv-rails'
 # for fake data
 gem 'faker'
 # for seeds
-gem 'factory_girl_rails'
+gem 'factory_girl_rails', require: false
 
 # for integrating Stripe payment gateway
 gem 'stripe'
