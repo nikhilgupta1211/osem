@@ -1,5 +1,6 @@
 # Load the rails application
 require File.expand_path('../application', __FILE__)
+require 'factory_girl_rails'
 
 # Load the configuration file
 path = Rails.root.join('config', 'config.yml')
